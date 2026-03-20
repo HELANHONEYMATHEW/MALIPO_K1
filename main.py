@@ -4,7 +4,7 @@ def run():
     agent = BrowserAgent()
 
     try:
-        agent.open_page("https://medium.com/@malipodendro")
+        agent.open_page("https//:www.google.com")
         agent.scan_page()           
         agent.detect_hidden_elements()
         agent.llm_scan()              
